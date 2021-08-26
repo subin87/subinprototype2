@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subin George's Prototype | Prototype2</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"/> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <!-- <script src="https://use.fontawesome.com/8e03849abb.js"></script> -->
+</head>
+<body>
+   <section class="subheader">
+       <nav>
+           <a href="index.html"><img src="images/logo.png" alt=""></a>
+           <div class="nav-links" id="navLinks">
+            <ion-icon name="close-outline" onclick="hideMenu()"></ion-icon>
+           
+            <!-- <i class="fas fa-times"></i>
+            <i class="fas fa-bars"></i> -->
+            <ul>
+                <li><a href="index.html">Links1</a></li>
+                <li><a href="link2.html">Links2</a></li>
+                <li><a href="link3.html">Links3</a></li>
+                <li><a href="link4.html">Links4</a></li>
+                <li><a href="link5.html">Links5</a></li>
+               </ul>
+           </div>
+           <ion-icon name="menu-outline" onclick="showMenu()"></ion-icon>
+       </nav>
+      <h1>Our Certificate and Online Program from 2021</h1>
+   </section> 
+   <!-- Blog Page Content  -->
+   <section class="blog-content">
+       <div class="row">
+           <div class="blog-left">
+               <img src="images/certificate.jpg" alt="">
+               <h2>Our Certificate and Online Program from 2021</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur amet sequi tempore illum nam. Autem, culpa possimus? Incidunt perspiciatis accusamus recusandae nihil mollitia rem aspernatur at, nisi neque dolores obcaecati. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+               <br>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat excepturi, sit tenetur amet explicabo commodi. Dicta veritatis libero architecto numquam reprehenderit molestiae odio corporis, eos eius earum labore mollitia saepe.
+               Temporibus, sint architecto? Quod, at dicta. Vero, quod labore beatae suscipit eaque numquam minus aliquid saepe quia modi similique dicta unde facere facilis repellat blanditiis sunt possimus voluptas. Nihil, iure!
+               Enim vitae exercitationem magni tempora autem alias harum dicta explicabo. Aperiam impedit ratione corporis cum doloribus, aliquam quibusdam obcaecati vel reprehenderit temporibus error quasi neque commodi, corrupti odit. Nulla, voluptatibus.
+               </p>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis dolore, ipsum, alias iusto eum vero, eius quaerat voluptate error voluptates aspernatur exercitationem adipisci! Pariatur accusamus delectus aliquam optio magnam.
+               Vero mollitia provident, atque placeat cumque earum nemo maiores veniam animi consectetur natus molestiae, ullam labore. Molestiae magnam vitae doloremque dolorem iusto totam consequuntur cupiditate. Culpa dolorum minima harum necessitatibus.
+               Asperiores unde repellendus necessitatibus pariatur ex fuga quasi, iure praesentium tenetur rerum? Amet, eaque reprehenderit atque alias incidunt quas impedit deserunt, laborum architecto voluptatem sequi? Consequuntur nihil dolore quisquam magni?
+              </p>
+              <br>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vero quae, odio possimus, ea quidem excepturi magnam suscipit a nostrum deleniti ducimus aliquam hic impedit esse rerum repudiandae doloremque consectetur!
+              Vitae dolore nisi tempora at, voluptatum quasi, cumque sunt quisquam vero ratione porro sapiente fugit sequi odio fugiat rem ducimus tempore iusto fuga numquam ex.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comments"></textarea>
+                        <button type="submit" class="hero-btn">Post Comments</button>
+                    </form>
+                </div>
+
+
+           </div>
+           <div class="blog-right">
+               <h3>Post Categories</h3>
+               <div class="score">
+                   <span>Business Analytics</span>
+                   <span>21</span>
+               </div>
+               <div class="score">
+                <span>Data Science</span>
+                <span>28</span>
+                </div>
+                <div class="score">
+                    <span>Machine Learning</span>
+                    <span>28</span>
+                </div>
+                <div class="score">
+                    <span>Computer Science</span>
+                    <span>28</span>
+                </div>
+                <div class="score">
+                    <span>AutoCAD</span>
+                    <span>28</span>
+                </div>
+                <div class="score">
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div class="score">
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+           </div>
+       </div>
+   </section>
+    
+   
+   <!--------Footer--------->
+   <section class="footer">
+       <h4>About Us</h4>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia tenetur harum error aspernatur tempora, excepturi <br>necessitatibus. Accusantium, eveniet! Laboriosam temporibus ipsa expedita id nihil? Lore</p>
+       <div class="icons">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+       </div>
+       <p>Made by Subin George</p>
+   </section>
+   <!-- ----JavaScript for Toggle Menu---- -->
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+       function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+   </script>
+</body>
+</html>
